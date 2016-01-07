@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Royal Films</string>
+    <string name="item">selection</string>
+    <string-array name="menu">
+        <item>My Account</item>
+        <item>Movies</item>
+        <item>Theaters</item>
+        <item>Contact us</item>
+    </string-array>
+    <string-array name="films">
+        <item>Movie</item>
+        <item>Premiere</item>
+    </string-array>
+
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
