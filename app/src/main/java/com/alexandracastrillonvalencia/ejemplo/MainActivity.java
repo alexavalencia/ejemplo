@@ -30,18 +30,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
-
-        Parse.enableLocalDatastore(this);
-        Parse.initialize(this);
-
-        /*ParseObject gameScore = new ParseObject("GameScore");
-        gameScore.put("score",1338);
-        gameScore.put("playerName","Sean Plott");
-        gameScore.put("cheatMode",false);
-        gameScore.saveInBackground();*/
         menu = getResources().getStringArray(R.array.menu);
-
+        Parse.initialize(this, "4S2cjzpQXN2cuSbhB85SM9f8gIFlKD9SQ0r2n3ls", "9roeqhdvGtDem0xp5VU4n3u8ZVMveq7g8o0HPrkx");
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         listView = (ListView) findViewById(R.id.left_drawer);
 
@@ -63,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (op) {
 
                     case 0:
-                        fragment = new FilmsFragment();
+                        fragment = new AccountFragment();
 
                         break;
                     case 1:

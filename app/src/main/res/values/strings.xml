@@ -2,7 +2,7 @@
     <string name="app_name">Royal Films</string>
     <string name="item">selection</string>
     <string-array name="menu">
-        <item>My Account</item>
+        <item>Creat Account</item>
         <item>Movies</item>
         <item>Theaters</item>
         <item>Contact us</item>
@@ -11,9 +11,15 @@
         <item>Movie</item>
         <item>Premiere</item>
     </string-array>
-
+    <string name="registro">Registration</string>
     <string name="drawer_open">open drawer</string>
     <string name="drawer_close">close drawer</string>
+    <string name="nombre">Name:</string>
+    <string name="apellido">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="codigotarj">Card Code:</string>
+    <string name="contrase">Password: </string>
+    <string name="aceptar">Creat</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
